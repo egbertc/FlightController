@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XML-Schema-instance" version="1.2" xsi:noNamespaceSchemaLocation="http://aviationweather.gov/adds/schema/metar1_2.xsd">
+  <request_index>45908943</request_index>
+  <data_source name="metars" />
+  <request type="retrieve" />
+  <errors />
+  <warnings />
+  <time_taken_ms>3</time_taken_ms>
+  <data num_results="1">
+    <METAR>
+      <raw_text>KORD 250851Z 17005KT 10SM SCT022 OVC037 26/22 A2999 RMK AO2 SLP148 T02560217 55002</raw_text>
+      <station_id>KORD</station_id>
+      <observation_time>2014-08-25T08:51:00Z</observation_time>
+      <latitude>41.98</latitude>
+      <longitude>-87.93</longitude>
+      <temp_c>25.6</temp_c>
+      <dewpoint_c>21.7</dewpoint_c>
+      <wind_dir_degrees>170</wind_dir_degrees>
+      <wind_speed_kt>5</wind_speed_kt>
+      <visibility_statute_mi>10.0</visibility_statute_mi>
+      <altim_in_hg>29.991142</altim_in_hg>
+      <sea_level_pressure_mb>1014.8</sea_level_pressure_mb>
+      <quality_control_flags>
+        <auto_station>TRUE</auto_station>
+      </quality_control_flags>
+      <sky_condition sky_cover="SCT" cloud_base_ft_agl="2200" />
+      <sky_condition sky_cover="OVC" cloud_base_ft_agl="3700" />
+      <flight_category>VFR</flight_category>
+      <three_hr_pressure_tendency_mb>-0.2</three_hr_pressure_tendency_mb>
+      <metar_type>METAR</metar_type>
+      <elevation_m>200.0</elevation_m>
+    </METAR>
+  </data>
+</response>
+

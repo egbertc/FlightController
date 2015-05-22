@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XML-Schema-instance" version="1.2" xsi:noNamespaceSchemaLocation="http://aviationweather.gov/adds/schema/metar1_2.xsd">
+  <request_index>45783562</request_index>
+  <data_source name="metars" />
+  <request type="retrieve" />
+  <errors />
+  <warnings />
+  <time_taken_ms>1</time_taken_ms>
+  <data num_results="1">
+    <METAR>
+      <raw_text>KMDW 250515Z 15005KT 10SM BKN026 BKN250 28/24 A3000 RMK AO2 T02780244</raw_text>
+      <station_id>KMDW</station_id>
+      <observation_time>2014-08-25T05:15:00Z</observation_time>
+      <latitude>41.78</latitude>
+      <longitude>-87.75</longitude>
+      <temp_c>27.8</temp_c>
+      <dewpoint_c>24.4</dewpoint_c>
+      <wind_dir_degrees>150</wind_dir_degrees>
+      <wind_speed_kt>5</wind_speed_kt>
+      <visibility_statute_mi>10.0</visibility_statute_mi>
+      <altim_in_hg>30.0</altim_in_hg>
+      <quality_control_flags>
+        <auto_station>TRUE</auto_station>
+      </quality_control_flags>
+      <sky_condition sky_cover="BKN" cloud_base_ft_agl="2600" />
+      <sky_condition sky_cover="BKN" cloud_base_ft_agl="25000" />
+      <flight_category>MVFR</flight_category>
+      <metar_type>METAR</metar_type>
+      <elevation_m>188.0</elevation_m>
+    </METAR>
+  </data>
+</response>
+

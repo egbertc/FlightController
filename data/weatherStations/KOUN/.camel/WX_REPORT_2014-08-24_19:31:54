@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XML-Schema-instance" version="1.2" xsi:noNamespaceSchemaLocation="http://aviationweather.gov/adds/schema/metar1_2.xsd">
+  <request_index>167573768</request_index>
+  <data_source name="metars" />
+  <request type="retrieve" />
+  <errors />
+  <warnings />
+  <time_taken_ms>2</time_taken_ms>
+  <data num_results="1">
+    <METAR>
+      <raw_text>KOUN 250015Z AUTO 15012G16KT 10SM CLR 35/18 A2988 RMK AO2 LTG DSNT NW</raw_text>
+      <station_id>KOUN</station_id>
+      <observation_time>2014-08-25T00:15:00Z</observation_time>
+      <latitude>35.25</latitude>
+      <longitude>-97.47</longitude>
+      <temp_c>35.0</temp_c>
+      <dewpoint_c>18.0</dewpoint_c>
+      <wind_dir_degrees>150</wind_dir_degrees>
+      <wind_speed_kt>12</wind_speed_kt>
+      <wind_gust_kt>16</wind_gust_kt>
+      <visibility_statute_mi>10.0</visibility_statute_mi>
+      <altim_in_hg>29.878937</altim_in_hg>
+      <quality_control_flags>
+        <auto>TRUE</auto>
+        <auto_station>TRUE</auto_station>
+      </quality_control_flags>
+      <sky_condition sky_cover="CLR" />
+      <flight_category>VFR</flight_category>
+      <metar_type>SPECI</metar_type>
+      <elevation_m>357.0</elevation_m>
+    </METAR>
+  </data>
+</response>
+

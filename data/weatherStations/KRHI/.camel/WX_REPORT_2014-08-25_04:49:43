@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XML-Schema-instance" version="1.2" xsi:noNamespaceSchemaLocation="http://aviationweather.gov/adds/schema/metar1_2.xsd">
+  <request_index>45914895</request_index>
+  <data_source name="metars" />
+  <request type="retrieve" />
+  <errors />
+  <warnings />
+  <time_taken_ms>3</time_taken_ms>
+  <data num_results="1">
+    <METAR>
+      <raw_text>KRHI 250935Z AUTO 15006KT 9SM -RA FEW036 SCT048 SCT120 19/18 A2995 RMK AO2 LTG DSNT ALQDS TSE32 P0017 T01890183</raw_text>
+      <station_id>KRHI</station_id>
+      <observation_time>2014-08-25T09:35:00Z</observation_time>
+      <latitude>45.63</latitude>
+      <longitude>-89.48</longitude>
+      <temp_c>18.9</temp_c>
+      <dewpoint_c>18.3</dewpoint_c>
+      <wind_dir_degrees>150</wind_dir_degrees>
+      <wind_speed_kt>6</wind_speed_kt>
+      <visibility_statute_mi>9.0</visibility_statute_mi>
+      <altim_in_hg>29.949802</altim_in_hg>
+      <quality_control_flags>
+        <auto>TRUE</auto>
+        <auto_station>TRUE</auto_station>
+      </quality_control_flags>
+      <wx_string>-RA</wx_string>
+      <sky_condition sky_cover="FEW" cloud_base_ft_agl="3600" />
+      <sky_condition sky_cover="SCT" cloud_base_ft_agl="4800" />
+      <sky_condition sky_cover="SCT" cloud_base_ft_agl="12000" />
+      <flight_category>VFR</flight_category>
+      <precip_in>0.17</precip_in>
+      <metar_type>SPECI</metar_type>
+      <elevation_m>485.0</elevation_m>
+    </METAR>
+  </data>
+</response>
+

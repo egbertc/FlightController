@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XML-Schema-instance" version="1.2" xsi:noNamespaceSchemaLocation="http://aviationweather.gov/adds/schema/metar1_2.xsd">
+  <request_index>45524103</request_index>
+  <data_source name="metars" />
+  <request type="retrieve" />
+  <errors />
+  <warnings />
+  <time_taken_ms>4</time_taken_ms>
+  <data num_results="1">
+    <METAR>
+      <raw_text>KDFW 241953Z 17011KT 10SM FEW060 BKN300 36/19 A2991 RMK AO2 SLP116 T03610194</raw_text>
+      <station_id>KDFW</station_id>
+      <observation_time>2014-08-24T19:53:00Z</observation_time>
+      <latitude>32.9</latitude>
+      <longitude>-97.02</longitude>
+      <temp_c>36.1</temp_c>
+      <dewpoint_c>19.4</dewpoint_c>
+      <wind_dir_degrees>170</wind_dir_degrees>
+      <wind_speed_kt>11</wind_speed_kt>
+      <visibility_statute_mi>10.0</visibility_statute_mi>
+      <altim_in_hg>29.911417</altim_in_hg>
+      <sea_level_pressure_mb>1011.6</sea_level_pressure_mb>
+      <quality_control_flags>
+        <auto_station>TRUE</auto_station>
+      </quality_control_flags>
+      <sky_condition sky_cover="FEW" cloud_base_ft_agl="6000" />
+      <sky_condition sky_cover="BKN" cloud_base_ft_agl="30000" />
+      <flight_category>VFR</flight_category>
+      <metar_type>METAR</metar_type>
+      <elevation_m>174.0</elevation_m>
+    </METAR>
+  </data>
+</response>
+

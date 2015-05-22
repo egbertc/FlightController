@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XML-Schema-instance" version="1.2" xsi:noNamespaceSchemaLocation="http://aviationweather.gov/adds/schema/metar1_2.xsd">
+  <request_index>167805302</request_index>
+  <data_source name="metars" />
+  <request type="retrieve" />
+  <errors />
+  <warnings />
+  <time_taken_ms>2</time_taken_ms>
+  <data num_results="1">
+    <METAR>
+      <raw_text>KSTL 250751Z 14005KT 10SM CLR 28/25 A2998 RMK AO2 SLP134 T02830250</raw_text>
+      <station_id>KSTL</station_id>
+      <observation_time>2014-08-25T07:51:00Z</observation_time>
+      <latitude>38.75</latitude>
+      <longitude>-90.37</longitude>
+      <temp_c>28.3</temp_c>
+      <dewpoint_c>25.0</dewpoint_c>
+      <wind_dir_degrees>140</wind_dir_degrees>
+      <wind_speed_kt>5</wind_speed_kt>
+      <visibility_statute_mi>10.0</visibility_statute_mi>
+      <altim_in_hg>29.97933</altim_in_hg>
+      <sea_level_pressure_mb>1013.4</sea_level_pressure_mb>
+      <quality_control_flags>
+        <auto_station>TRUE</auto_station>
+      </quality_control_flags>
+      <sky_condition sky_cover="CLR" />
+      <flight_category>VFR</flight_category>
+      <metar_type>METAR</metar_type>
+      <elevation_m>171.0</elevation_m>
+    </METAR>
+  </data>
+</response>
+
