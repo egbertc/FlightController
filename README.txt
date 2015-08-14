@@ -1,4 +1,4 @@
-Final Project: Connor Egbert
+Air Traffic Control Simulator.
 
 everything runs under FlightPlanMAIN.
 
